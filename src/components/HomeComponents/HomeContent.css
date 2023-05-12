@@ -1,0 +1,20 @@
+.HomeContent{
+    background-image: linear-gradient(to right bottom, #770000, #920024, #a20050, #99008c, #5800cf);
+    height: max-content;
+    padding: 20px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.userInfo{
+    color: white;
+    text-align: end;
+}
+.highlight{
+    text-decoration: underline;
+}
+div.row1{
+    display: flex;
+    justify-content:  space-around;
+}

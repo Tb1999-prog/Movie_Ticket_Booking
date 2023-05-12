@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Cinzel:wght@500&family=Fredoka+One&family=Josefin+Slab:wght@700&display=swap');
+@import url('https://css.gg/log-in.css');
+*{
+    /* border: 1px solid white; */
+    /* box-sizing: border-box; */
+}
+div.landingContainer{
+    padding: 5vw;
+    /* margin: 50px; */
+    /* font-family: 'Allerta Stencil', sans-serif; */
+
+    /* font-family: 'Cinzel', serif; */
+
+    /* font-family: 'Fredoka One', cursive; */
+
+    /* font-family: 'Josefin Slab', serif */
+    
+}
+div.landingPage{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: linear-gradient(to right top, #000000,  #c20000); */
+    background-image: linear-gradient(to right top, #000000, #270c12, #450c19, #65071a, #840016, #840016, #840016, #840016, #65071a, #450c19, #270c12, #000000);
+}
+
+div.landingContainer > h1{
+    font-family: 'Josefin Slab', serif;
+    font-size: 5vw;
+    color: white;
+    text-shadow: 0 0 10px red;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+div.landingContainer > h3{
+    /* margin-left: 20vw; */
+    font-size: 25px;
+    text-align: center;
+    color: gray;
+    /* font-family: 'Allerta Stencil', sans-serif; */
+    font-family: 'Cinzel', serif;
+    /* font-family: 'Fredoka One', cursive; */
+    /* font-family: 'Josefin Slab', serif */
+}
+div.movieImg{
+    text-align: center;
+}
+div.proceedToLogin{
+    text-align: center;
+}
+button.proceedToLogin {
+    height: 5vw;
+    width: 20vw;
+    background-image: linear-gradient(to right top, #ff0000, #d90004, #b50006, #910005, #6f0000);
+    border-radius: 43px;
+    border: 0;
+    font-size: 1.5vw;
+    color: white;
+}
+button.proceedToLogin:hover{
+    background-image: linear-gradient(to right top, #410000, #6d000d, #9d0011, #cd000e, #ff0000);
+    box-shadow:0 0 40px red;
+    text-shadow: 0 0 10px yellow;
+}

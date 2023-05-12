@@ -1,0 +1,36 @@
+.carousel_item_container{
+    /* border: 5px solid black; */
+    height: 50vh;
+    overflow: hidden;
+}
+.carousel_image_container{
+    display: flex;
+    /* border: 10px solid blue; */
+    justify-content: center;
+}
+.movieImg{
+    width: 80vw;
+    box-shadow: 5px 5px 40px black;
+}
+
+div.carousel_captions{
+    display: flex;
+    justify-content: center;
+}
+div.movieDetails{
+    backdrop-filter: blur(10px);
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        
+}
+div.movieDetails h3{
+    /* color: black; */
+    display: none;
+}
+.movieDetails p{
+    color: black;
+    text-shadow: 0 0 5px white;
+    font-weight: bold;
+}

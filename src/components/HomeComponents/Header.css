@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+.Header{
+    padding: 10px;
+    /* height: 11vh; */
+    /* border: 1px solid red; */
+    
+    justify-content: space-between;
+    background-image: linear-gradient(to right top, #770000, #920024, #a20050, #99008c, #5800cf);
+    
+    color: white;
+    /* border: 1px solid white; */
+    box-shadow: 5px 5px white;
+    
+}
+.HeaderName{
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    font-size: 5vh;
+    text-shadow: 0 0 50px black;
+}
+.LogoutButton{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10vw;
+    text-align: center;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+
+}
