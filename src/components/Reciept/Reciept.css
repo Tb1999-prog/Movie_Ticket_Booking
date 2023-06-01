@@ -1,3 +1,26 @@
 .toBeHidden{
 	display: none;
 }
+
+.receiptContainer {
+	text-align: center;
+	background-color: darkred;
+	width: auto;
+	margin: auto 10px;
+	height: 720px;
+	background-image: url("https://thumbs.dreamstime.com/b/movie-ticket-booking-app-movie-ticket-booking-app-popcorn-movie-theater-tickets-smartphone-146082701.jpg")
+}
+
+label {
+	margin-right: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	color: black;
+}
+
+input {
+	background-color: white;
+	font-weight: bold;
+	margin-left: 20px;
+}
